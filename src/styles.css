@@ -1,0 +1,173 @@
+@font-face{
+	font-family: 'BuenosAires-Light';
+	src: url('assets/fonts/BuenosAires-Light.eot');
+	src: url('assets/fonts/BuenosAires-Light.eot') format('embedded-opentype'),
+	url('assets/fonts/BuenosAires-Light.woff') format('woff'),
+	url('assets/fonts/BuenosAires-Light.woff2') format('woff2'),
+    url('assets/fonts/BuenosAires-Light.ttf') format('truetype'),
+    url('assets/fonts/BuenosAires-Light.svg') format('svg');
+	font-weight: normal;
+    font-style: normal
+}
+@font-face{
+	font-family: 'BuenosAires-Regular';
+	src: url('assets/fonts/BuenosAires-Regular.eot');
+	src: url('assets/fonts/BuenosAires-Regular.eot') format('embedded-opentype'),
+	url('assets/fonts/BuenosAires-Regular.woff') format('woff'),
+	url('assets/fonts/BuenosAires-Regular.woff2') format('woff2'),
+    url('assets/fonts/BuenosAires-Regular.ttf') format('truetype'),
+    url('assets/fonts/BuenosAires-Regular.svg') format('svg');
+	font-weight: normal;
+    font-style: normal
+}
+@font-face{
+	font-family: 'BuenosAires-Bold';
+	src: url('assets/fonts/BuenosAires-Bold.eot');
+	src: url('assets/fonts/BuenosAires-Bold.eot') format('embedded-opentype'),
+	url('assets/fonts/BuenosAires-Bold.woff') format('woff'),
+	url('assets/fonts/BuenosAires-Bold.woff2') format('woff2'),
+    url('assets/fonts/BuenosAires-Bold.ttf') format('truetype'),
+    url('assets/fonts/BuenosAires-Bold.svg') format('svg');
+	font-weight: normal;
+    font-style: normal
+}
+@font-face{
+	font-family: 'BuenosAires-Light-VN';
+	src: url('assets/fonts/BuenosAires-Light-VN.eot');
+	src: url('assets/fonts/BuenosAires-Light-VN.eot') format('embedded-opentype'),
+	url('assets/fonts/BuenosAires-Light-VN.woff') format('woff'),
+	url('assets/fonts/BuenosAires-Light-VN.woff2') format('woff2'),
+    url('assets/fonts/BuenosAires-Light-VN.ttf') format('truetype'),
+    url('assets/fonts/BuenosAires-Light-VN.svg') format('svg');
+	font-weight: normal;
+    font-style: normal
+}
+@font-face{
+	font-family: 'BuenosAires-Regular-VN';
+	src: url('assets/fonts/BuenosAires-Regular-VN.eot');
+	src: url('assets/fonts/BuenosAires-Regular-VN.eot') format('embedded-opentype'),
+	url('assets/fonts/BuenosAires-Regular-VN.woff') format('woff'),
+	url('assets/fonts/BuenosAires-Regular-VN.woff2') format('woff2'),
+    url('assets/fonts/BuenosAires-Regular-VN.ttf') format('truetype'),
+    url('assets/fonts/BuenosAires-Regular-VN.svg') format('svg');
+	font-weight: normal;
+    font-style: normal
+}
+@font-face{
+	font-family: 'BuenosAires-Bold-VN';
+	src: url('assets/fonts/BuenosAires-Bold-VN.eot');
+	src: url('assets/fonts/BuenosAires-Bold-VN.eot') format('embedded-opentype'),
+	url('assets/fonts/BuenosAires-Bold-VN.woff') format('woff'),
+	url('assets/fonts/BuenosAires-Bold-VN.woff2') format('woff2'),
+    url('assets/fonts/BuenosAires-Bold-VN.ttf') format('truetype'),
+    url('assets/fonts/BuenosAires-Bold-VN.svg') format('svg');
+	font-weight: normal;
+    font-style: normal
+}
+@font-face{
+	font-family: 'Material Icons';
+	src: url('assets/fonts/MaterialIcons-Regular.eot');
+	src: url('assets/fonts/MaterialIcons-Regular.eot') format('embedded-opentype'),
+	url('assets/fonts/MaterialIcons-Regular.woff') format('woff'),
+	url('assets/fonts/MaterialIcons-Regular.woff2') format('woff2'),
+    url('assets/fonts/MaterialIcons-Regular.ttf') format('truetype'),
+    url('assets/fonts/MaterialIcons-Regular.svg') format('svg');
+	font-weight: 400;
+    font-style: normal
+}
+@font-face{
+	font-family: 'Material Icons Outlined';
+	src: url('assets/fonts/MaterialIconsOutlined-Regular.eot');
+	src: url('assets/fonts/MaterialIconsOutlined-Regular.eot') format('embedded-opentype'),
+	url('assets/fonts/MaterialIconsOutlined-Regular.woff') format('woff'),
+	url('assets/fonts/MaterialIconsOutlined-Regular.woff2') format('woff2'),
+    url('assets/fonts/MaterialIconsOutlined-Regular.ttf') format('truetype'),
+    url('assets/fonts/MaterialIconsOutlined-Regular.svg') format('svg');
+	font-weight: 400;
+    font-style: normal
+}
+:root {
+	--primaryColor: #0874E7;
+	--BlackColor: #1C1F2A;
+
+	--font-light: "BuenosAires-Light", 'BuenosAires-Light-VN',sans-serif;
+	--font-regular: "BuenosAires-Regular", 'BuenosAires-Regular-VN',sans-serif;
+	--font-bold: "BuenosAires-Bold", 'BuenosAires-Bold-VN',sans-serif;
+}
+
+.material-icons-outlined {
+  font-family: 'Material Icons Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+*{
+	box-sizing: border-box
+}
+.font_bold{
+  font-family: 'BuenosAires-Bold','BuenosAires-Bold-VN';
+}
+.font_regular{
+  font-family: 'BuenosAires-Regular','BuenosAires-Regular-VN';
+}
+.font_light{
+  font-family: 'BuenosAires-Light','BuenosAires-Light-VN';
+}
+a {
+    text-decoration: none;
+    color: var(--BlackColor);
+}
+
+a:hover {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #F9FAFB;
+    margin: 0;
+    padding: 0;
+    color: var(--BlackColor);
+    font-size: 20px;
+    font-family: var(--font-regular);
+    line-height: 30px;
+}
+
+.default_container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 20px;
+    margin: auto;
+}
+.scroll_hidden{
+  overflow: hidden;
+}
