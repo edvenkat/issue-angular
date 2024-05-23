@@ -77,7 +77,7 @@
     "rxjs": "^7.5.7",
     "serverless-api-compression": "^1.0.1",
     "sha256": "^0.2.0",
-    "ts-loader": "^4.2.0",
+    "ts-loader": "^6.0.0",
     "tslib": "^2.0.0",
     "typescript": "5.3.3",
     "webpack": "^5.90.1",
